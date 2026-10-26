@@ -1,184 +1,66 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="es">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Lucila Abalo — Portfolio</title>
-  <meta name="description" content="Lucila Abalo — Social Media Manager, CM y Licenciada en Comunicación Social">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-  <script>document.documentElement.classList.add('js');</script>
-  <script data-goatcounter="https://suzana.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio Bento | Social Media Manager</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="page">
-    <div class="container">
 
-      <nav class="nav">
-        <span class="mono logo">suzana.dev</span>
-        <div class="nav-links">
-          <a href="#projects">Projects</a>
-          <a href="assets/Suzana-Uvadiev-CV.pdf" target="_blank" rel="noopener">CV</a>
-          <a href="#contact">Contact</a>
-        </div>
-      </nav>
+    <!-- CONTENEDOR PRINCIPAL ESTILO BENTO -->
+    <main class="bento-grid">
 
-      <main class="bento" id="projects">
-
-        <!-- Intro -->
-        <section class="card a-intro dark">
-          <div class="stack-14">
-            <span class="mono label label-accent">Junior Software Developer · Rishon LeZion</span>
-            <h1>Hi, I'm Suzana.</h1>
-            <p class="lead">B.Sc. in Computer Science. I build mobile apps, backends and websites — and I've been shipping real client sites since 2022.</p>
-          </div>
-          <div class="btn-row">
-            <a class="btn btn-accent" href="assets/Suzana-Uvadiev-CV.pdf" download="Suzana-Uvadiev-CV.pdf">Download CV</a>
-            <a class="btn btn-ghost" href="https://github.com/Suzana121" target="_blank" rel="noopener">GitHub</a>
-            <a class="btn btn-ghost" href="https://www.linkedin.com/in/suzana-masturov/" target="_blank" rel="noopener">LinkedIn</a>
-          </div>
-        </section>
-
-        <!-- Final project: fraud detection -->
-        <section class="card a-fraud">
-          <div class="row-between">
-            <span class="mono label">01 · Final project</span>
-            <span class="mono badge">Owned the entire backend</span>
-          </div>
-          <div class="fraud-inner">
-            <div class="fraud-text">
-              <h2 class="h2-lg">Cardify</h2>
-              <span class="subtitle">Credit card fraud detection</span>
-              <p class="body">An Android app that flags suspicious card transactions in real time. A Python Flask backend runs a machine-learning model that spots transactions that don't match the user's usual spending.</p>
-              <div class="tags">
-                <span class="mono tag">Kotlin</span>
-                <span class="mono tag">Android</span>
-                <span class="mono tag">Python</span>
-                <span class="mono tag">Flask</span>
-                <span class="mono tag">Machine learning</span>
-                <span class="mono tag">Firebase</span>
-              </div>
-              <div class="demo-controls">
-                <span class="muted small">Take a look inside the app:</span>
-                <div class="btn-row-8">
-                  <button type="button" class="pill is-on" data-screen="login" aria-pressed="true">Login</button>
-                  <button type="button" class="pill" data-screen="signup" aria-pressed="false">Sign up</button>
-                  <button type="button" class="pill" data-screen="home" aria-pressed="false">Home</button>
-                  <button type="button" class="pill" data-screen="transactions" aria-pressed="false">Transactions</button>
-                  <button type="button" class="pill" data-screen="filters" aria-pressed="false">Filters</button>
-                  <button type="button" class="pill" data-screen="stats" aria-pressed="false">Stats</button>
-                </div>
-              </div>
-              <a class="link-strong" href="https://github.com/Suzana121/Smart-Credit-Card-Transaction-Analysis" target="_blank" rel="noopener">View the code on GitHub →</a>
+        <!-- BLOQUE 1: BIENVENIDA Y PERFIL -->
+        <section class="bento-item profile-box">
+            <h1>Hola, soy [TU NOMBRE]</h1>
+            <h2>Social Media Manager & Community Manager</h2>
+            <p>Ayudo a marcas y negocios a escalar su presencia digital, crear comunidad y aumentar sus ventas a través de estrategias de contenido atractivas en Instagram, TikTok y LinkedIn.</p>
+            <div class="buttons">
+                <a href="[LINK_TU_EMAIL]" class="btn-primary">Escríbeme por Mail</a>
+                <a href="[LINK_TU_WHATSAPP]" class="btn-secondary">Hablemos por WhatsApp</a>
             </div>
+        </section>
 
-            <div class="phone">
-              <div class="phone-screen">
-                <img src="images/cardify/login.jpg" alt="Cardify — Login screen" data-shot="login">
-                <img src="images/cardify/signup.jpg" alt="Cardify — Sign up screen" data-shot="signup" hidden>
-                <img src="images/cardify/home.jpg" alt="Cardify — Home screen" data-shot="home" hidden>
-                <img src="images/cardify/transactions.jpg" alt="Cardify — Transactions screen" data-shot="transactions" hidden>
-                <img src="images/cardify/filters.jpg" alt="Cardify — Filters screen" data-shot="filters" hidden>
-                <img src="images/cardify/stats.jpg" alt="Cardify — Stats screen" data-shot="stats" hidden>
-              </div>
+        <!-- BLOQUE 2: REDES SOCIALES (ENLACES) -->
+        <section class="bento-item links-box">
+            <h3>Mis Redes</h3>
+            <ul>
+                <li><a href="[LINK_INSTAGRAM]" target="_blank">📸 Instagram</a></li>
+                <li><a href="[LINK_TIKTOK]" target="_blank">🎵 TikTok</a></li>
+                <li><a href="[LINK_LINKEDIN]" target="_blank">💼 LinkedIn</a></li>
+            </ul>
+        </section>
+
+        <!-- BLOQUE 3: CASO DE ÉXITO 1 -->
+        <section class="bento-item project-box">
+            <span class="tag">Caso de Éxito · Estrategia</span>
+            <h3>Crecimiento de Comunidad</h3>
+            <p>Diseñé la estrategia de contenido para una marca de [Rubro de la Marca], logrando aumentar el alcance orgánico en un 150% y sumando más de 5,000 seguidores cualificados en solo 3 meses.</p>
+        </section>
+
+        <!-- BLOQUE 4: MIS SERVICIOS / TOOLBOX -->
+        <section class="bento-item tools-box">
+            <h3>Lo que hago</h3>
+            <div class="skills-list">
+                <span>✨ Gestión de Redes</span>
+                <span>📈 Estrategia de Contenido</span>
+                <span>🎥 Edición de Reels/TikToks</span>
+                <span>📊 Reporte de Métricas</span>
+                <span>💬 Atención al Cliente</span>
             </div>
-          </div>
         </section>
 
-        <!-- Work -->
-        <section class="card a-work pad-28 spread">
-          <span class="mono label">Since 2022</span>
-          <div class="stack-8">
-            <h3>Kulialma Studio</h3>
-            <p class="body-sm">Web Developer. Building and maintaining client websites with WordPress and Elementor.</p>
-          </div>
+        <!-- BLOQUE 5: CASO DE ÉXITO 2 (MULTIMEDIA) -->
+        <section class="bento-item project-box visual">
+            <span class="tag">Contenido Viral</span>
+            <h3>+100K Reproducciones</h3>
+            <p>Creación, guion y edición de videos en formato vertical (Reels/Shorts) enfocados en retención y conversión de audiencia.</p>
         </section>
 
-        <!-- Toolbox -->
-        <section class="card a-stack accent pad-28 spread">
-          <span class="mono label label-light">Toolbox</span>
-          <div class="tags">
-            <span class="mono tag tag-light">Kotlin</span>
-            <span class="mono tag tag-light">Firebase</span>
-            <span class="mono tag tag-light">Android</span>
-            <span class="mono tag tag-light">JavaScript</span>
-            <span class="mono tag tag-light">Node.js</span>
-            <span class="mono tag tag-light">Express</span>
-            <span class="mono tag tag-light">MongoDB</span>
-            <span class="mono tag tag-light">Python</span>
-            <span class="mono tag tag-light">Godot</span>
-          </div>
-        </section>
+    </main>
 
-        <!-- Course project -->
-        <section class="card a-course pad-32">
-          <span class="mono label">02 · Courses project</span>
-          <div class="media gallery" data-gallery>
-            <img src="images/courses/home.jpg" alt="Courses site — home page with feature cards" loading="lazy">
-            <img src="images/courses/why.jpg" alt="Courses site — why take our courses section" loading="lazy" hidden>
-            <img src="images/courses/catalog.jpg" alt="Courses site — course catalog" loading="lazy" hidden>
-            <img src="images/courses/my-courses.jpg" alt="Courses site — my enrolled courses" loading="lazy" hidden>
-            <img src="images/courses/payment.jpg" alt="Courses site — checkout and payment page" loading="lazy" hidden>
-            <img src="images/courses/login.jpg" alt="Courses site — login and sign-up form" loading="lazy" hidden>
-          </div>
-          <h2>Online courses platform</h2>
-          <p class="body-sm">A full-stack website for buying and taking online courses: sign-up and login, course pages with reviews, user profiles, a payment page and an admin panel. Includes password reset by email and embedded YouTube lessons.</p>
-          <div class="tags">
-            <span class="mono tag">Node.js</span>
-            <span class="mono tag">Express</span>
-            <span class="mono tag">MongoDB</span>
-            <span class="mono tag">JWT</span>
-            <span class="mono tag">JavaScript</span>
-          </div>
-          <div class="links">
-            <a href="https://github.com/Suzana121/website-project-2025" target="_blank" rel="noopener">Code →</a>
-          </div>
-        </section>
-
-        <!-- Game -->
-        <section class="card a-game navy pad-32">
-          <span class="mono label label-accent">03 · Computer game</span>
-          <div class="media media-video">
-            <video src="media/game.mp4" poster="media/game-poster.jpg" autoplay muted loop playsinline preload="metadata" aria-label="RPG 3D Game gameplay"></video>
-          </div>
-          <h2>RPG 3D Game</h2>
-          <p class="body-sm on-dark">My attempt at a Skyrim-style 3D RPG, built in Godot with GDScript, with Claude as my coding partner. Player, NPCs, items and world systems.</p>
-          <div class="tags">
-            <span class="mono tag tag-light">Godot</span>
-            <span class="mono tag tag-light">GDScript</span>
-            <span class="mono tag tag-light">3D</span>
-          </div>
-          <div class="links">
-            <a href="https://github.com/Suzana121/RPG-3D-Game" target="_blank" rel="noopener">Code →</a>
-          </div>
-        </section>
-
-        <!-- Languages -->
-        <section class="card a-lang pad-28">
-          <span class="mono label">Languages</span>
-          <div class="stack-6 langs">
-            <span>Hebrew — native</span>
-            <span>English — high proficiency</span>
-            <span>Russian — good</span>
-          </div>
-        </section>
-
-        <!-- Contact -->
-        <section class="card a-contact dark contact" id="contact">
-          <h2 class="h2-md">Open to junior developer roles.</h2>
-          <a class="btn btn-light" href="https://www.linkedin.com/in/suzana-masturov/" target="_blank" rel="noopener">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
-            Connect on LinkedIn
-          </a>
-        </section>
-
-      </main>
-    </div>
-  </div>
-<script data-goatcounter="https://suzana.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
+
